@@ -1,0 +1,15 @@
+.form {
+
+    &__group {
+        width: 100%;
+        margin: 0 0 15px 0;
+
+        &__error {
+            margin: 4.5px 0 -5.5px 0;
+            padding: 0 9.5px;
+            font-size: 13px;
+            line-height: 120%;
+            color: $red;
+        }
+    }
+}
