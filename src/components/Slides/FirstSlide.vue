@@ -64,13 +64,10 @@ export default {
 
         .button {
             width: 100%;
+            max-width: 320px;
 
             @include tablet {
                 max-width: 100%;
-            }
-
-            @include mobile {
-                max-width: 320px;
             }
         }
     }

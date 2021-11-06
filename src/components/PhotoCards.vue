@@ -139,7 +139,6 @@ export default {
             filter: drop-shadow(100px 23px 50px rgba(0, 40, 16, 0.25));
 
             @include desktop {
-                max-height: 810px;
                 width: calc(100% - 62px);
             }
 
