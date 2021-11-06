@@ -59,6 +59,10 @@ export default {
       padding: 40px 40px 0 40px;
     }
 
+    @media (max-width: 374px) {
+      padding: 40px 20px 0 20px;
+    }
+
     background: linear-gradient(180deg, #FFFFFF 0%, #F1FFFA 100%);
     overflow: hidden;
 

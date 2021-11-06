@@ -162,6 +162,10 @@ export default {
                 transition: opacity 400ms ease-in-out;
             }
 
+            @media (max-width: 374px) {
+                width: calc(100% + 40px);
+                margin: 0 -20px;
+            }
         }
 
         &__wrapper {

@@ -79,6 +79,11 @@ export default {
         width: 141px;
       }
 
+      @media (max-width: 374px) {
+        width: 132px;
+        min-width: 132px;
+      }
+
       font-size: 20px;
       letter-spacing: 0.02em;
       border: none;
