@@ -30,7 +30,6 @@ export default {
     }),
     mounted() {
         this.isMobile = window.innerWidth < 768;
-        console.log(this.isMobile)
     }
 }
 </script>
@@ -38,6 +37,7 @@ export default {
 <style lang="scss">
     .view-first-slide {
         position: absolute;
+        left: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -45,6 +45,7 @@ export default {
         max-width: 519px;
         height: 100%;
         transition: opacity 400ms ease;
+        transform: translateX(-50%);
 
         @include tablet {
             position: relative;

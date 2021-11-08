@@ -1,6 +1,6 @@
 <template>
     <footer class="view-footer">
-        2008-2021 © All rights reserved
+        2008-{{ (new Date()).getFullYear() }} © All rights reserved
     </footer>
 </template>
 
@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     .view-footer {
         flex-shrink: 0;
         font-size: 15px;

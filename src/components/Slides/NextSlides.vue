@@ -83,7 +83,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     .view-next-slide {
         position: absolute;
         width: 100%;
