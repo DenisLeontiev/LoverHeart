@@ -85,13 +85,15 @@ export default {
         }
 
         @include mobile {
+            flex-shrink: 0;
             width: 100%;
-            height: 100%;
+            height: 300px;
             margin: 20px 0 0 0;
 
             &.last {
                 opacity: 0;
                 visibility: hidden;
+                display: none;
             }
         }
 

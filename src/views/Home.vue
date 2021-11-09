@@ -57,6 +57,7 @@ export default {
 
     @include mobile {
       padding: 40px 40px 0 40px;
+      overflow-y: auto;
     }
 
     @media (max-width: 374px) {
